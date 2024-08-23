@@ -29,8 +29,6 @@
 }
 
 body {
-  font: var(--text-sm);
-  color: var(--gray-200);
   background-color: var(--gray-300);
 }
 

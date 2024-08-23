@@ -1,0 +1,48 @@
+#profile {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: fit-content;
+  padding-top: 132px;
+
+}
+
+#icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#container {
+  background-image: url(/assets/images/Background_Intro.png);
+  width: 100vw;
+  height: 750px;
+  background-size: cover;
+  
+  
+}
+
+#bio {
+  display: flex;
+  width: 680px;
+  padding-top: 56px;
+  justify-content: center;
+  margin-inline: auto;
+
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  align-items: center;
+  h2 {
+    padding-bottom: 8px;
+  }
+  h1 {
+    padding-bottom: 20px;
+  }
+
+}
+
+
