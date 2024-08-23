@@ -45,4 +45,32 @@
 
 }
 
+#tecnologias ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin-top: 80px;
+  width: 754px;
+  margin-inline: auto;
+
+}
+
+#tecnologias ul li {
+  display: flex;
+  width: 144px;
+  height: 40px;
+  background-color: var(--gray-300);
+  justify-content: center;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 8px;
+  border-radius: 100px;
+
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
 
