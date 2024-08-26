@@ -7,6 +7,10 @@
   color: var(--red);
 }
 
+.purple {
+  color: var(--purple);
+}
+
 .title-lg {
   font: var(--title-lg);
   color: var(--gray-600);

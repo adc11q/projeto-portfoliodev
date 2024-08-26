@@ -12,12 +12,15 @@
   position: relative;
   width: fit-content;
   padding-top: 132px;
+  border-radius: 50%;
 }
 
 #icon {
   position: absolute;
   bottom: 0;
   right: 0;
+
+  
 }
 
 #bio {
@@ -31,7 +34,6 @@
 #title {
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
   align-items: center;
   h2 {
     padding-bottom: 8px;
@@ -46,19 +48,16 @@
   list-style: none;
   gap: 16px;
   margin-top: 80px;
-  width: 754px;
-  margin-inline: auto;
+  justify-content: center;
+
 }
 
 #tecnologias ul li {
   display: flex;
-  width: 144px;
-  height: 40px;
   background-color: var(--gray-300);
   justify-content: center;
   align-items: center;
-  padding: 9px 16px;
-  gap: 8px;
+  padding: 8px 16px;
   border-radius: 100px;
 }
 
